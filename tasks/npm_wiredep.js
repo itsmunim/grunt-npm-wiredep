@@ -11,7 +11,7 @@ function wiredep(grunt) {
     this.requiresConfig(['wiredep', this.target, 'src']);
 
     var options = this.options(this.data);
-    require('npm-wiredep')(options);
+    require('wiredep')(options);
   });
 }
 
