@@ -8,7 +8,7 @@
  */
 function npmWiredep(grunt) {
   grunt.registerMultiTask('npmWiredep', 'Inject npm packages into your source code', function () {
-    this.requiresConfig(['npm-wiredep', this.target, 'src']);
+    this.requiresConfig(['wiredep', this.target, 'src']);
 
     var options = this.options(this.data);
     require('npm-wiredep')(options);
