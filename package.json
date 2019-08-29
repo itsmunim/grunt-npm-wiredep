@@ -22,5 +22,11 @@
     "url": "http://github.com/dibosh"
   },
   "repository": "dibosh/grunt-npm-wiredep",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "dependencies": {
+    "npm-wiredep": "0.0.4"
+  }
 }
