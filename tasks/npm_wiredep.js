@@ -6,8 +6,8 @@
  * want to convert your bower dependent project into a npm one.
  * @param {*} grunt
  */
-function npmWiredep(grunt) {
-  grunt.registerMultiTask('npmWiredep', 'Inject npm packages into your source code', function () {
+function wiredep(grunt) {
+  grunt.registerMultiTask('wiredep', 'Inject npm packages into your source code', function () {
     this.requiresConfig(['wiredep', this.target, 'src']);
 
     var options = this.options(this.data);
@@ -15,4 +15,4 @@ function npmWiredep(grunt) {
   });
 }
 
-module.exports = npmWiredep;
+module.exports = wiredep;
