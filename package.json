@@ -1,6 +1,6 @@
 {
   "name": "grunt-npm-wiredep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Inject your npm dependencies right into your HTML from Grunt",
   "main": "index.js",
   "scripts": {
